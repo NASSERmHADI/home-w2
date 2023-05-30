@@ -1,0 +1,13 @@
+﻿<div class="text-center">
+    <form asp-action="opr">
+       value- 1   :       <input type="number" name="In1" />
+        <br />
+        opration :     <input type="text" name="Op" />
+        <br />
+       value- 2   :       <input type="number" name="In2" />
+        <br />
+        <button type="submit">OK</button>
+    </form>
+</div>
+
+<h3> opration is:@ViewData["In1"] @ViewData["Opx"] @ViewData["In2"]<br /> value is = @ViewData["value"]</h3>
